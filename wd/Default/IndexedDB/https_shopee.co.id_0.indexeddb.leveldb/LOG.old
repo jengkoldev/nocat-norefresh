@@ -1,0 +1,21 @@
+2020/12/09-02:21:29.522 d7ef Reusing MANIFEST /home/umar/Dev/Scrapping/SHOPEE/nocat-norefresh/wd/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/09-02:21:29.524 d7ef Recovering log #441
+2020/12/09-02:21:29.525 d7ef Reusing old log /home/umar/Dev/Scrapping/SHOPEE/nocat-norefresh/wd/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/000441.log 
+2020/12/09-02:21:30.263 d7ef Level-0 table #446: started
+2020/12/09-02:21:30.265 d7ef Level-0 table #446: 28617 bytes OK
+2020/12/09-02:21:30.267 d7ef Delete type=0 #441
+2020/12/09-02:21:30.268 d7ef Manual compaction at level-0 from '\x00\x85\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x86\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/12/09-02:21:30.439 d7ef Compacting 1@1 + 1@2 files
+2020/12/09-02:21:30.454 d7ef Generated table #447@1: 4410 keys, 127548 bytes
+2020/12/09-02:21:30.454 d7ef Compacted 1@1 + 1@2 files => 127548 bytes
+2020/12/09-02:21:30.459 d7ef compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/09-02:21:30.460 d7ef Delete type=2 #443
+2020/12/09-02:21:30.460 d7ef Delete type=2 #446
+2020/12/09-02:21:33.831 d7db Level-0 table #449: started
+2020/12/09-02:21:33.833 d7db Level-0 table #449: 14306 bytes OK
+2020/12/09-02:21:33.836 d7db Delete type=0 #445
+2020/12/09-02:21:33.836 d7db Manual compaction at level-0 from '\x00\x86\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x87\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/12/09-02:21:34.176 d7e4 Compacting 1@1 + 1@2 files
+2020/12/09-02:21:34.203 d7e4 Generated table #450@1: 4413 keys, 127713 bytes
+2020/12/09-02:21:34.203 d7e4 Compacted 1@1 + 1@2 files => 127713 bytes
+2020/12/09-02:21:34.205 d7e4 compacted to: files[ 0 0 1 0 0 0 0 ]

@@ -1,0 +1,23 @@
+2020/12/09-02:22:44.489 d8ad Reusing MANIFEST /home/umar/Dev/Scrapping/SHOPEE/nocat-norefresh/wd/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/09-02:22:44.489 d8ad Recovering log #448
+2020/12/09-02:22:44.493 d8ad Reusing old log /home/umar/Dev/Scrapping/SHOPEE/nocat-norefresh/wd/Default/IndexedDB/https_shopee.co.id_0.indexeddb.leveldb/000448.log 
+2020/12/09-02:22:44.493 d8ad Delete type=2 #449
+2020/12/09-02:22:44.493 d8ad Delete type=2 #447
+2020/12/09-02:22:45.421 d8ac Level-0 table #453: started
+2020/12/09-02:22:45.425 d8ac Level-0 table #453: 83149 bytes OK
+2020/12/09-02:22:45.427 d8ac Delete type=0 #448
+2020/12/09-02:22:45.427 d8ac Manual compaction at level-0 from '\x00\x87\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x88\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/12/09-02:22:45.700 d8ac Compacting 1@1 + 1@2 files
+2020/12/09-02:22:45.721 d8ac Generated table #454@1: 4465 keys, 132091 bytes
+2020/12/09-02:22:45.722 d8ac Compacted 1@1 + 1@2 files => 132091 bytes
+2020/12/09-02:22:45.725 d8ac compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/09-02:22:45.726 d8ac Delete type=2 #453
+2020/12/09-02:22:45.726 d8ac Delete type=2 #450
+2020/12/09-02:22:48.792 d8f4 Level-0 table #456: started
+2020/12/09-02:22:48.797 d8f4 Level-0 table #456: 26963 bytes OK
+2020/12/09-02:22:48.799 d8f4 Delete type=0 #452
+2020/12/09-02:22:48.800 d8ac Manual compaction at level-0 from '\x00\x88\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x89\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/12/09-02:22:49.740 d8ac Compacting 1@1 + 1@2 files
+2020/12/09-02:22:49.774 d8ac Generated table #457@1: 4459 keys, 128219 bytes
+2020/12/09-02:22:49.774 d8ac Compacted 1@1 + 1@2 files => 128219 bytes
+2020/12/09-02:22:49.782 d8ac compacted to: files[ 0 0 1 0 0 0 0 ]
