@@ -8,7 +8,7 @@ const pay = async (payP) => {
 
                 if (price.textContent != 'Rp') {
                     payBtn = document.querySelector('.page-checkout-place-order-section__button');
-                    // payBtn.click();
+                    payBtn.click();
                     res('pay found');
                     clearInterval(search);
                 }
