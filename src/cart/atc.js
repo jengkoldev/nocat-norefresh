@@ -3,7 +3,7 @@ const atc = (payP) => {
         await payP.evaluate(() => {
             let counter = setInterval(function () {
                 document.querySelector('.product-bottom-panel__add-to-cart').click();
-            }, 1000);
+            }, 500);
         });
 
         resolve('done');

@@ -19,7 +19,7 @@ const App = async () => {
     await init(productP, coP, product);
 
     // timer
-    await timer('49:50')
+    await timer('59:50')
 
     // atc
     var atcs = await atc(productP);
@@ -35,6 +35,13 @@ const App = async () => {
     console.log(price)
 
     await coP.screenshot({path: './public/ss.png'})
+    await coP.evaluate(() => {
+        return new Promise((res, rej) => {
+            setTimeout(function () {
+                res(true);
+            }, 15000);
+        });
+    });
     await productP.close();
     await coP.close();
     await BROWSER.close();
