@@ -19,14 +19,14 @@ const App = async () => {
     await init(productP, coP, product);
 
     // timer
-    await timer('00:00')
+    await timer('30:30')
 
     // atc
-    var atcs = await atc(productP);
-    console.log(atcs)
+    // var atcs = await atc(productP);
+    // console.log(atcs)
 
     // co
-    await co(coP);
+    // await co(coP);
 
     // pay
     console.time('pay')
