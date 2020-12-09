@@ -8,31 +8,34 @@ const init = require('./src/init/init');
 const timer = require('./src/time/timer');
 const atc = require('./src/cart/atc');
 const pay = require('./src/cart/pay');
+const co = require('./src/cart/co');
 
 const App = async () => {
     const BROWSER = await puppeteer.launch(config);
     let productP = await BROWSER.newPage();
-    let payP = await BROWSER.newPage();
+    let coP = await BROWSER.newPage();
 
     // initial page
-    await init(productP, payP, product);
+    await init(productP, coP, product);
 
     // timer
-    await timer('57:50')
+    await timer('24:10')
 
     // atc
     var atcs = await atc(productP);
     console.log(atcs)
 
+    // co
+    await co(coP);
+
     // pay
+    // console.time('start')
+    // await pay(payP);
+    // console.timeEnd('start')
 
-    console.time('start')
-    await pay(payP);
-    console.timeEnd('start')
-
-    await productP.close();
-    await payP.close();
-    await BROWSER.close();
+    // await productP.close();
+    // await payP.close();
+    // await BROWSER.close();
 }
 
 App();
