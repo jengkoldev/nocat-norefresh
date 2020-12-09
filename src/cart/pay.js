@@ -1,5 +1,4 @@
 const pay = async (payP) => {
-    console.time('waiting-ready-pay')
     await payP.evaluate(() => {
         return new Promise((res, rej) => {
             let price;
@@ -16,7 +15,6 @@ const pay = async (payP) => {
             }, 100);
         });
     });
-    console.timeEnd('waiting-ready-pay')
 }
 
 module.exports = pay;

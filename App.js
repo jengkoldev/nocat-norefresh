@@ -19,7 +19,7 @@ const App = async () => {
     await init(productP, coP, product);
 
     // timer
-    await timer('35:40')
+    await timer('44:20')
 
     // atc
     var atcs = await atc(productP);
@@ -29,13 +29,13 @@ const App = async () => {
     await co(coP);
 
     // pay
-    console.time('start')
+    console.time('pay')
     await pay(coP);
-    console.timeEnd('start')
+    console.timeEnd('pay')
     console.log("dones")
 
     await productP.close();
-    await payP.close();
+    await coP.close();
     await BROWSER.close();
 }
 
