@@ -19,7 +19,7 @@ const App = async () => {
     await init(productP, coP, product);
 
     // timer
-    await timer('35:30')
+    await timer('36:50')
 
     // atc
     // var atcs = await atc(productP);
