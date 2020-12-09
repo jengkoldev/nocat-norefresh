@@ -34,19 +34,13 @@ const pay = async (payP) => {
 
     price = 'Rp12.000';
 
-    // if (price == 'Rp12.000') {
-    //     await payP.evaluate(() => {
-    //         document.querySelectorAll('.page-checkout-payment-channel-item__header')[0].click();
-    //     });
-
-    //     price = await priceWactcher(payP);
-    //     // await payP.click('.page-checkout-place-order-section__button');
-    // }
+    if (price == 'Rp12.000') {
+        await payP.evaluate(() => {
+            document.querySelector('.page-checkout-place-order-section__button').click();
+        });
+    }
 
     // click place order
-    // await payP.evaluate(() => {
-    //     document.querySelector('.page-checkout-place-order-section__button').click();
-    // });
 
     return price;
 }

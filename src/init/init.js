@@ -2,9 +2,9 @@ const init = (productP, coP, product) => {
     return new Promise(async (resolve, reject) => {
         try {
             // goto page
-            // await productP.goto(product.link, {
-            //     waitUntil: 'domcontentloaded',
-            // });
+            await productP.goto(product.link, {
+                waitUntil: 'domcontentloaded',
+            });
 
             await coP.goto(product.direct, {
                 waitUntil: 'networkidle0',
