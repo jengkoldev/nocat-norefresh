@@ -34,6 +34,7 @@ const App = async () => {
     console.timeEnd('pay')
     console.log("dones")
 
+    await coP.screenshot({path: './public/ss.png'})
     await productP.close();
     await coP.close();
     await BROWSER.close();
