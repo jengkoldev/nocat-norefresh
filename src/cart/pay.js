@@ -36,7 +36,7 @@ const pay = async (payP) => {
 
     if (price == 'Rp12.000') {
         await payP.evaluate(() => {
-            document.querySelector('.page-checkout-place-order-section__button').click();
+            // document.querySelector('.page-checkout-place-order-section__button').click();
         });
     }
 
