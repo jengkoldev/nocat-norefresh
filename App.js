@@ -19,7 +19,7 @@ const App = async () => {
     await init(productP, coP, product);
 
     // timer
-    await timer('36:50')
+    await timer('59:50')
 
     // atc
     // var atcs = await atc(productP);
@@ -30,9 +30,9 @@ const App = async () => {
 
     // pay
     console.time('pay')
-    await pay(coP);
+    const price = await pay(coP);
     console.timeEnd('pay')
-    console.log("dones")
+    console.log(price)
 
     await coP.screenshot({path: './public/ss.png'})
     await productP.close();

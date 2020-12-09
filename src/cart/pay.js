@@ -27,27 +27,28 @@ const priceWactcher = async (payP) => {
 
 const pay = async (payP) => {
     await payP.evaluate(() => {
-        document.querySelectorAll('.page-checkout-payment-channel-item__header')[5].click();
+        document.querySelectorAll('.page-checkout-payment-channel-item__header')[0].click();
     });
 
     let price = await priceWactcher(payP);
 
     price = 'Rp12.000';
 
-    if (price == 'Rp12.000') {
-        await payP.evaluate(() => {
-            document.querySelectorAll('.page-checkout-payment-channel-item__header')[0].click();
-        });
+    // if (price == 'Rp12.000') {
+    //     await payP.evaluate(() => {
+    //         document.querySelectorAll('.page-checkout-payment-channel-item__header')[0].click();
+    //     });
 
-        price = await priceWactcher(payP);
-        // await payP.click('.page-checkout-place-order-section__button');
-    }
+    //     price = await priceWactcher(payP);
+    //     // await payP.click('.page-checkout-place-order-section__button');
+    // }
 
     // click place order
     // await payP.evaluate(() => {
     //     document.querySelector('.page-checkout-place-order-section__button').click();
     // });
 
+    return price;
 }
 
 module.exports = pay;
