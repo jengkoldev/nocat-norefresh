@@ -16,7 +16,7 @@ const init = (productP, coP, product) => {
             //     waitUntil: 'domcontentloaded',
             // });
 
-            resolve("loaded");
+            resolve(coP);
         } catch(err) {
             reject(err);
         }

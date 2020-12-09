@@ -16,10 +16,10 @@ const App = async () => {
     let coP = await BROWSER.newPage();
 
     // initial page
-    await init(productP, coP, product);
+    const coP2 = await init(productP, coP, product);
 
     // timer
-    await timer('59:50')
+    await timer('38:59', '38:30', coP2, product)
 
     // atc
     var atcs = await atc(productP);
